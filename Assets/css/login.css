@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+  }
+  html, body {
+    height: 100%;
+  }
+  .Login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+  }
+  .login-box{
+    width: 40%;
+    height:60%;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8), 0 9px 3px rgba(0, 0, 0, 0.10);
+  }
+  .login-1{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-2{
+    width: 80%;
+    height: 85%;
+    margin: 0 auto;
+    /* background-color: rgb(119, 91, 91); */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .login-2 input{
+    width: 75%;
+    height: 13%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+    padding: 10px;
+  }
+  .pass{
+    width: 75%;
+    height: 13%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+  }
+  .pass input{
+    width: 90%;
+    height: 100%;
+    /* background-color: green; */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+  .pass img{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    /* background-color: red; */
+  }
+.login-2 button{
+  width: 30%;
+  height: 40px;
+  background-color: #105A8B;
+  border: none;
+  color: white;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .login-box {
+      width: 80%;
+      height: auto;
+  }
+
+  .login-2 input {
+      width: 85%;
+  }
+
+  .pass {
+      width: 85%;
+  }
+
+  .login-2 button {
+      width: 60%;
+      height: 45px;
+      font-size: 16px;
+  }
+
+  .pass img {
+      width: 20px;
+      height: 20px;
+  }
+
+  .login-2 {
+      gap: 15px;
+  }
+}
+
+/* Very Small Devices (Extra Small Devices like Phones) */
+@media (max-width: 480px) {
+  .login-box {
+      width: 90%;
+      height: 55%;
+  }
+
+  .login-2 input {
+      width: 90%;
+      height: 10%;
+  }
+
+  .pass {
+      width: 90%;
+      height: 10%;
+  }
+
+  .login-2 button {
+      width: 40%;
+      height: 35px;
+      font-size: 15px;
+  }
+
+  .pass img {
+      width: 18px;
+      height: 18px;
+  }
+
+  .login-2 {
+      gap: 10px;
+  }
+}
